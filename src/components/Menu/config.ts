@@ -7,6 +7,13 @@ const config: MenuEntry[] = [
     href: '/',
   },
   {
+    label: 'Teddy\'s Home',
+    icon: 'HomeIcon',
+    href: 'https://teddy.bears.finance/',
+  },
+
+
+  {
     label: 'Trade',
     icon: 'TradeIcon',
     items: [
@@ -26,7 +33,7 @@ const config: MenuEntry[] = [
     href: '/farms',
   },
   {
-    label: 'Wild Pools (in 6h)',
+    label: 'Wild Pools (coming soon)',
     icon: 'PoolIcon',
     href: '/pools',
   },
@@ -62,6 +69,14 @@ const config: MenuEntry[] = [
         label: 'GitHub',
         href: 'https://github.com/BEAR-finance',
       },
+      {
+        label: 'Blog',
+        href: 'https://medium.com/@BearsFinance',
+      },
+      {
+        label: 'Whitepaper',
+        href: '/whitepaper.pdf',
+      }
       // {
       //   label: 'CoinMarketCap',
       //   href: 'https://coinmarketcap.com/currencies/goose-finance/',
