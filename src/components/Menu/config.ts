@@ -71,7 +71,7 @@ const config: MenuEntry[] = [
       },
       {
         label: 'Blog',
-        href: 'https://medium.com/@BearsFinance',
+        href: 'https://bearsfinance.medium.com/',
       },
       {
         label: 'Whitepaper',
