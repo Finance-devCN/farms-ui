@@ -11,7 +11,7 @@ import TwitterCard from './components/TwitterCard'
 
 const Hero = styled.div`
   align-items: center;
-  background-image: url('/images/bear/logo.png');
+  //background-image: url('/images/bear/logo.png');
   background-repeat: no-repeat;
   background-position: top center;
   display: flex;
@@ -23,9 +23,9 @@ const Hero = styled.div`
   text-align: center;
 
   ${({ theme }) => theme.mediaQueries.lg} {
-    background-image: url('/images/bear/logo.png'), url('/images/bear/teddy_logo.png');
-    background-position: left center, right center;
-    height: 165px;
+    //background-image: url('/images/bear/logo.png'), url('/images/bear/teddy_logo.png');
+    //background-position: left center, right center;
+    //height: 165px;
     padding-top: 0;
   }
 `
@@ -53,6 +53,18 @@ const Cards = styled(BaseLayout)`
   }
 `
 
+const TokenTab = styled.div`
+  display: flex;
+  align-items: center;
+  margin: 0 auto;
+`
+
+const TokenTabWrap = styled.div`
+  display: flex;
+  align-items: center;
+  margin-bottom:28px;
+`
+
 const Home: React.FC = () => {
   const TranslateString = useI18n()
 
@@ -63,8 +75,24 @@ const Home: React.FC = () => {
            Bears Finance
         </Heading>
         <Text>{TranslateString(578, 'The #1 Bear AMM and yield farm on Binance Smart Chain.')}</Text>
-        <Text color="#ad9e95">We launched token Teddy with great farming opportunity. Check Teddys Home!</Text>
       </Hero>
+      <TokenTabWrap>
+        <TokenTab>
+          <a href="https://bears.finance/">
+            <img src='/images/bear/coin_BEAR.png' alt="BEAR"/>
+          </a>
+        </TokenTab>
+        <TokenTab>
+          <a href="https://teddy.bears.finance/">
+            <img src='/images/bear/coin_TEDDY.png' alt="POLAR BEAR"/>
+          </a>
+        </TokenTab>
+        <TokenTab >
+          <a href="/">
+            <img src='/images/bear/coin_POLAR.png' alt="TEDDY"/>
+          </a>
+        </TokenTab>
+      </TokenTabWrap>
       <div>
         <Cards>
           <FarmStakingCard />
