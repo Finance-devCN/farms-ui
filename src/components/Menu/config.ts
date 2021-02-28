@@ -12,6 +12,13 @@ const config: MenuEntry[] = [
     href: 'https://teddy.bears.finance/',
   },
 
+  {
+    label: 'Polar\'s Home',
+    icon: 'HomeIcon',
+    href: '',
+  },
+
+
 
   {
     label: 'Trade',
