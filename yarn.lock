@@ -1828,9 +1828,9 @@
     eslint-plugin-react "^7.21.5"
     eslint-plugin-react-hooks "^4.0.0"
 
-"@pancakeswap-libs/uikit@lampgram/uikit#releases":
+"@pancakeswap-libs/uikit@BEAR-finance/bears-uikit":
   version "0.10.2"
-  resolved "https://codeload.github.com/lampgram/uikit/tar.gz/e31941b2edacae77a6e56488326a88c5aa4a200c"
+  resolved "https://codeload.github.com/BEAR-finance/bears-uikit/tar.gz/b24b5518efdf84d9a173a9343a6c05ad48c15671"
   dependencies:
     "@types/lodash" "^4.14.162"
     "@types/styled-system" "^5.1.10"
