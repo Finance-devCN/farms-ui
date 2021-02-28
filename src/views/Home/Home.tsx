@@ -88,7 +88,7 @@ const Home: React.FC = () => {
           </a>
         </TokenTab>
         <TokenTab >
-          <a href="/">
+          <a href="https://polar.bears.finance/">
             <img src='/images/bear/coin_POLAR.png' alt="TEDDY"/>
           </a>
         </TokenTab>
