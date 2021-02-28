@@ -15,7 +15,7 @@ const config: MenuEntry[] = [
   {
     label: 'Polar\'s Home',
     icon: 'HomeIcon',
-    href: '',
+    href: 'https://polar.bears.finance/',
   },
 
 
