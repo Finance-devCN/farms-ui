@@ -11,7 +11,7 @@ import TwitterCard from './components/TwitterCard'
 
 const Hero = styled.div`
   align-items: center;
-  //background-image: url('/images/bear/logo.png');
+  //background-image: url('/images/logo.png');
   background-repeat: no-repeat;
   background-position: top center;
   display: flex;
@@ -23,7 +23,7 @@ const Hero = styled.div`
   text-align: center;
 
   ${({ theme }) => theme.mediaQueries.lg} {
-    //background-image: url('/images/bear/logo.png'), url('/images/bear/teddy_logo.png');
+    //background-image: url('/images/logo.png'), url('/images/logo.png');
     //background-position: left center, right center;
     //height: 165px;
     padding-top: 0;
@@ -72,24 +72,24 @@ const Home: React.FC = () => {
     <Page>
       <Hero>
         <Heading as="h1" size="xl" mb="24px" color="#7f441c">
-           Bears Finance
+          Finance Swap
         </Heading>
-        <Text>{TranslateString(578, 'The #1 Bear AMM and yield farm on Binance Smart Chain.')}</Text>
+        <Text>{TranslateString(578, '')}</Text>
       </Hero>
       <TokenTabWrap>
         <TokenTab>
-          <a href="https://bears.finance/">
-            <img src='/images/bear/coin_BEAR.png' alt="BEAR"/>
+          <a href="https://ficn.exchange">
+            <img src='/images/bear/logo.png' alt="Lucky Lotus"/>
           </a>
         </TokenTab>
         <TokenTab>
-          <a href="https://teddy.bears.finance/">
-            <img src='/images/bear/coin_TEDDY.png' alt="POLAR BEAR"/>
+          <a href="https://financeswap.info/">
+            <img src='/images/bear/coin_TEDDY.png' alt="God of Wealth"/>
           </a>
         </TokenTab>
         <TokenTab >
-          <a href="https://polar.bears.finance/">
-            <img src='/images/bear/coin_POLAR.png' alt="TEDDY"/>
+          <a href="https://finance.cn.com">
+            <img src='/images/bear/coin_POLAR.png' alt="Cat Fortune"/>
           </a>
         </TokenTab>
       </TokenTabWrap>

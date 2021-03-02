@@ -41,10 +41,10 @@ const CakeStats = () => {
     <StyledCakeStats>
       <CardBody>
         <Heading size="xl" mb="24px">
-          {TranslateString(534, 'Bear Stats')}
+          {TranslateString(534, 'Finance Stats')}
         </Heading>
         <Row>
-          <Text fontSize="14px">{TranslateString(536, 'Total BEAR Supply')}</Text>
+          <Text fontSize="14px">{TranslateString(536, 'Total Finance Supply')}</Text>
           {cakeSupply && <CardValue fontSize="14px" value={cakeSupply} decimals={0} />}
         </Row>
         <Row>
@@ -52,11 +52,11 @@ const CakeStats = () => {
           <CardValue fontSize="14px" value={getBalanceNumber(marketCap)} decimals={0} prefix="$" />
         </Row>
         <Row>
-          <Text fontSize="14px">{TranslateString(538, 'Total BEAR Burned')}</Text>
+          <Text fontSize="14px">{TranslateString(538, 'Total Finance Burned')}</Text>
           <CardValue fontSize="14px" value={getBalanceNumber(burnedBalance)} decimals={0} />
         </Row>
         <Row>
-          <Text fontSize="14px">{TranslateString(540, 'New BEAR/block')}</Text>
+          <Text fontSize="14px">{TranslateString(540, 'New Finance/block')}</Text>
           <Text bold fontSize="14px">
             {bearPerBlock}
           </Text>

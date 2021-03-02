@@ -5,15 +5,15 @@ const farms: FarmConfig[] = [
   {
     pid: 0,
     risk: 5,
-    lpSymbol: 'BEAR-BUSD LP',
+    lpSymbol: 'FICN-BUSD LP',
     lpAddresses: {
       97: '',
-      56: '0x4e4820e5A4e7E7b8f54Df4B23Fd6a89b57dDf0Bb',
+      56: '0x755fdB231FcA11586b1e4385BD792ad9ba55110C',
     },
-    tokenSymbol: 'BEAR',
+    tokenSymbol: 'FICN',
     tokenAddresses: {
       97: '',
-      56: '0x580f500cc7da45b7b058de7df325f6d8f83065e1',
+      56: '0x755fdB231FcA11586b1e4385BD792ad9ba55110C',
     },
     quoteTokenSymbol: QuoteToken.BUSD,
     quoteTokenAdresses: contracts.busd,
@@ -21,15 +21,15 @@ const farms: FarmConfig[] = [
   {
     pid: 1,
     risk: 5,
-    lpSymbol: 'BEAR-BNB LP',
+    lpSymbol: 'FICN-BNB LP',
     lpAddresses: {
       97: '',
       56: '0xadb29f87c469e9afd281e9326ce73e0bc9548d5a',
     },
-    tokenSymbol: 'BEAR',
+    tokenSymbol: 'FICN',
     tokenAddresses: {
       97: '',
-      56: '0x580f500cc7da45b7b058de7df325f6d8f83065e1',
+      56: '0x755fdB231FcA11586b1e4385BD792ad9ba55110C',
     },
     quoteTokenSymbol: QuoteToken.BNB,
     quoteTokenAdresses: contracts.wbnb,

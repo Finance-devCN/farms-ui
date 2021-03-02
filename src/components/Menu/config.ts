@@ -7,45 +7,31 @@ const config: MenuEntry[] = [
     href: '/',
   },
   {
-    label: 'Teddy\'s Home',
-    icon: 'HomeIcon',
-    href: 'https://teddy.bears.finance/',
-  },
-
-  {
-    label: 'Polar\'s Home',
-    icon: 'HomeIcon',
-    href: 'https://polar.bears.finance/',
-  },
-
-
-
-  {
     label: 'Trade',
     icon: 'TradeIcon',
     items: [
       {
         label: 'Exchange',
-        href: 'http://exchange.bears.finance/',
+        href: 'https://www.finance.cn.com/#/swap',
       },
       {
         label: 'Liquidity',
-        href: 'http://exchange.bears.finance/#/pool',
+        href: 'https://www.finance.cn.com/#/pool',
       },
     ],
   },
   {
-    label: 'Wild Farms',
+    label: 'Finance Farms',
     icon: 'FarmIcon',
     href: '/farms',
   },
   {
-    label: 'Wild Pools (coming soon)',
+    label: 'Finance Pools (coming soon)',
     icon: 'PoolIcon',
     href: '/pools',
   },
   // {
-  //   label: 'Casino (coming in 24h)',
+  //   label: 'Casino (coming in 48h)',
   //   icon: 'PoolIcon',
   //   href: '/casino',
   // },
@@ -69,16 +55,16 @@ const config: MenuEntry[] = [
     icon: 'InfoIcon',
     items: [
       {
-        label: 'PancakeSwap',
-        href: 'https://pancakeswap.info/token/0x580f500cc7da45b7b058de7df325f6d8f83065e1',
+        label: 'Financeinfo',
+        href: 'https://financeswap.info',
       },
       {
         label: 'GitHub',
-        href: 'https://github.com/BEAR-finance',
+        href: 'https://github.com/FinanceCN',
       },
       {
         label: 'Blog',
-        href: 'https://bearsfinance.medium.com/',
+        href: 'https://financecn.medium.com/',
       },
       {
         label: 'Whitepaper',
@@ -86,11 +72,11 @@ const config: MenuEntry[] = [
       }
       // {
       //   label: 'CoinMarketCap',
-      //   href: 'https://coinmarketcap.com/currencies/goose-finance/',
+      //   href: 'https://coinmarketcap.com/currencies/Finance-FICN/',
       // },
       // {
       //   label: 'AstroTools',
-      //   href: 'https://app.astrotools.io/pancake-pair-explorer/0x19e7cbecdd23a16dfa5573df54d98f7caae03019',
+      //   href: 'https://app.astrotools.io/pancake-pair-explorer/0x755fdB231FcA11586b1e4385BD792ad9ba55110C',
       // },
     ],
   },
@@ -105,7 +91,7 @@ const config: MenuEntry[] = [
   //   items: [
   //     // {
   //     //   label: 'Voting',
-  //     //   href: 'https://voting.pancakeswap.finance',
+  //     //   href: 'https://voting.financeswap.',
   //     // },
   //     {
   //       label: 'Github',
