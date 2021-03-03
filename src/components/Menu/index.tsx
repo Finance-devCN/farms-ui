@@ -25,7 +25,7 @@ const Menu = (props) => {
       setLang={setSelectedLanguage}
       cakePriceUsd={cakePriceUsd}
       links={config}
-      priceLink="https://t.me/bearstalk"
+      priceLink="https://t.me/FinanceEnglish"
       {...props}
     />
   )
